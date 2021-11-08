@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Slot Machine</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="slot">
+	<div id="jackpot">Jackpot: <span id="jp">5.555.555</span></div>
+	<div id="reels">
+		<div class="reel"></div>
+		<div class="reel"></div>
+		<div class="reel"></div>
+		<div class="reel"></div>
+		<div class="reel"></div>
+	</div>
+	<div id="controls">
+		<button type="button" id="spin">SPIN</button>
+		<label>
+			<input type="checkbox" name="autoplay" id="autoplay">
+			Autoplay
+		</label>
+	</div>
+</div>
+<script src="js/Symbol.js"></script>
+<script src="js/Reel.js"></script>
+<script src="js/Slot.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
